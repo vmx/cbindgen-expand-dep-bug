@@ -1,0 +1,11 @@
+[package]
+name = "cbindgen-dep"
+version = "0.1.0"
+authors = ["Adam C. Foltzer <acfoltzer@acfoltzer.net>"]
+edition = "2018"
+
+[dependencies]
+dep = { path = "dep" }
+
+[build-dependencies]
+cbindgen = "0.8"
