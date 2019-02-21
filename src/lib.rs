@@ -1,6 +1,6 @@
-use dep::dep_struct;
+mod dep;
 
 #[no_mangle]
-pub unsafe extern "C" fn get_x(dep_struct: *const dep_struct) -> u32 {
+pub unsafe extern "C" fn get_x(dep_struct: *const dep::otherdep::dep_struct) -> u32 {
     dep_struct.read().x
 }
