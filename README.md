@@ -1,7 +1,7 @@
 cbindgen-expand-dep-bug
 =======================
 
-This is a minimal example for reproducing Bug #384.
+This is a minimal example for reproducing [Bug #384].
 
 If you run `cargo build`, then the `bindings.h` will look like this:
 
@@ -33,4 +33,7 @@ crates = ["cbindgen-dep"]
 ```
 
 This code is based on the minimal example created for
-https://github.com/eqrion/cbindgen/issues/292, thanks @acfoltzer.
+https://github.com/eqrion/cbindgen/issues/292, thanks [@acfoltzer].
+
+[Bug #384]: https://github.com/eqrion/cbindgen/issues/384
+[@acfoltzer]: https://github.com/acfoltzer
