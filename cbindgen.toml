@@ -4,3 +4,6 @@ language = "C"
 [parse]
 parse_deps = true
 include = ["dep"]
+
+[parse.expand]
+crates = ["cbindgen-dep"]
