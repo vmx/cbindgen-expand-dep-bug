@@ -31,3 +31,6 @@ That is there, when you comment out the macro expansion in the `cbindgen.toml`:
 [parse.expand]
 crates = ["cbindgen-dep"]
 ```
+
+This code is based on the minimal example created for
+https://github.com/eqrion/cbindgen/issues/292, thanks @acfoltzer.
