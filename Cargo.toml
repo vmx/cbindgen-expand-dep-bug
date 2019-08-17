@@ -8,4 +8,4 @@ edition = "2018"
 dep = { path = "dep" }
 
 [build-dependencies]
-cbindgen = "0.8"
+cbindgen = { git = "https://github.com/eqrion/cbindgen", rev = "9197af70797620465bfe42232d3927b9a380fd3e" }
